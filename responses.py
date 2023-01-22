@@ -21,7 +21,7 @@ import random
 import openai
 
 def handle_respose(message):
-  openai.api_key ="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"
+  openai.api_key ="your_api"
   # ask=input("Enter the Question: ")
   response = openai.Completion.create(
     model="text-davinci-003",
