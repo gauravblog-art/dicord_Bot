@@ -11,7 +11,7 @@ async def send_message(message, user_message, is_privet):
     except Exception as e:
         print(e)
 def run_discord_bot():
-    Token="MTA2NTg1MTAzNjA3MTM3ODk0NA.GkN26P.npNz5KjVKN-DrmV5UgL_BPZgyq9WdLcw_imzbY"
+    Token="your_token"
     clients=discord.Client(intents=discord.Intents.default())
     @clients.event
     async def on_reeady():
